@@ -1,0 +1,31 @@
+{% extends 'base.html'%}
+<!--********************************************************************* -->
+{% block breadcrumbs %}
+
+    <div class="container-fluid ">
+        <div class="span12">
+
+        </div>
+    </div>
+{% endblock %}
+{% block content %}
+    <div class="container-fluid content">
+<div class="row">
+    {% for clinica in object_list %}
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <img class="custom-thumbnail img-responsive"src="{{clinica.foto.url}}" alt="{{ clinica.nombre}}"/>
+                    <h3>{{ clinica.nombre }}</h3>
+                    <p>{{ clinica.direccion }}</p>
+                    <p>{{ clinica.telefono }}</p>
+                </div>
+            </div>
+
+
+    {% endfor %}
+ </div>
+
+    </div>
+
+{% endblock %}

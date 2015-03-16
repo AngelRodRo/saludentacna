@@ -1,0 +1,479 @@
+@font-face {
+  font-family: 'icomoon';
+  src:url('../fonts/icomoon.eot?rwl41e');
+  src:url('../fonts/icomoon.eot?#iefixrwl41e') format('embedded-opentype'),
+  url('../fonts/icomoon.woff?rwl41e') format('woff'),
+  url('../fonts/icomoon.ttf?rwl41e') format('truetype'),
+  url('../fonts/icomoon.svg?rwl41e#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+a{
+    text-decoration: none !important;
+}
+textarea{
+    resize: none;
+}
+.formfield-error{
+    position:relative;
+    padding:5px;
+    width: 30%;
+    background: #ff7749;
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #222;
+    margin:15px 0;
+
+
+}
+.preview{
+    padding:20px;
+}
+.form-group.odd,thead {
+    text-shadow: 1px 1px 2px #555;
+    border-radius: 12px;
+}
+td{
+    vertical-align: middle !important;
+}
+thead {
+    font-weight: bold;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px ;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    overflow: hidden;
+    vertical-align: bottom !important;
+}
+
+.form-group.odd,tbody > tr.even,thead{
+    background: #2cb8fa;
+    padding: 6px;
+    color:#f1f1f1;
+
+}
+
+.tooltip.bottom .tooltip-inner {
+    background-color:red;
+}
+.tooltip.bottom .tooltip-arrow {
+      border-bottom-color: red !important;
+}
+
+.select2-results__options{
+    max-height: 150px !important;
+
+
+}
+
+tbody > tr.even a{
+    color:#f1f1f1;
+}
+
+.form-group.even{
+    background: #f5f5f5;
+    padding: 6px;
+    color:#27a1db;
+    text-shadow: 1px 1px 2px #ccc;
+    border-radius: 12px;
+}
+.form-group.odd > input[type=file]{
+    color:#3C548B;
+}
+
+.form-group > input,.form-group > textarea{
+
+    color:#27a1db ;
+
+}
+
+.form-group:last-child {
+    background: transparent;
+    padding: 6px;
+    color:#27a1db;
+    text-shadow: 1px 1px 2px #ccc;
+    border-radius: 12px;
+}
+.form-group label, .form-group input,.form-group textarea {
+    vertical-align: middle;
+}
+.form-group label , input[type=file]{
+    padding: 0 0 0 20px;
+}
+
+.form-group label:first-child {
+    width: 18%;
+}
+.form-group label:nth-child(2) {
+    padding: 0;
+}
+
+.panel-body{
+   /* background-color: #a7e61e;*/
+    background-color:  rgba(167, 230, 30, 0.66);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.panel-form{
+     background-color: #a7e61e;
+    box-shadow: 0 0 0 transparent !important;
+}
+.formfield-error:before {
+  content:"";
+  position:absolute;
+  bottom:-11px;
+  left:43px;
+  border-width:11px 11px 0;
+  border-style:solid;
+  border-color:#ebccd1 transparent !important;
+
+  display:block;
+  width:0;
+}
+
+
+.formfield-error:after {
+  content:"";
+  position:absolute;
+  bottom:-9px;
+  left:45px;
+  border-width:9px 9px 0;
+  border-style:solid;
+  border-color:#ff7749 transparent;
+  display:block;
+  width:0;
+}
+
+.form-group{
+
+}
+
+
+
+ul{
+    list-style-type: none   ;
+}
+.panel{
+    border-radius: 3px 3px 15px 15px ;
+    box-shadow: 2px 1px 3px rgba(85, 85, 85, 0.28);
+}
+.panel-heading-custom,.panel{
+    border: 0px !important;
+    border-color:transparent !important;
+
+}
+
+.panel-heading-custom{
+    text-align: center;
+    background: #f1fcf7 !important;
+    color:#6ebfdb !important;
+    font-weight: bolder;
+    font-size: 1.6em;
+    text-shadow: 1px 1px 2px #333;
+}
+.breadcrumb,.panel-heading-custom{
+    background: #f1fcf7 !important;
+}
+.panel-icon{
+    height: 100px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transition: -webkit-transform .4s ease ;
+    -moz-transition: all .4s ease;
+     -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.panel-icon:hover{
+
+    -webkit-transform:rotate(360deg);
+     -moz-transform:rotate(360deg);
+     -o-transform:rotate(360deg);
+     transform:rotate(360deg);
+
+
+
+}
+.table>tbody>tr>td{
+    vertical-align: middle;
+}
+.panel-button{
+    padding:0px;
+    padding-top: 10px;
+
+}
+
+.panel-button-text{
+    margin-bottom: 0;
+    border-bottom: 10px;
+    background-color:dodgerblue ;
+    color:#eee;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #111;
+}
+.panel-button span{
+    color:#FFF !important;
+    text-decoration: none;
+}
+.navbar-brand{
+    color:#fefefe !important;
+}
+.navbar-form .navbar button{
+  outline:none;
+}
+
+html {
+    position: relative;
+  min-height: 100%;
+}
+body{
+    background: #eee;
+    font-family: 'Open Sans', sans-serif;
+    color:#167798;
+    width: 100%;
+padding-top:99px;
+    margin-bottom: 70px;
+
+}
+
+.navbar .nav{
+  margin:0;
+
+
+}
+
+
+
+
+.footertext{
+    float:none;
+    text-align: center;
+}
+
+h1{
+  font-size:2em;
+}
+
+ footer {
+
+
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 70px;
+  background-color: #2196F3;
+     color:#fefefe;
+  border:solid 0px #7DADDB;
+  border-top-width:12px;
+     position: absolute;
+  bottom: 0;
+
+}
+
+
+
+
+.logo{
+    height: 80px;
+    float:left;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.navbar-default{
+  background-color: #2196F3;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+
+
+  }
+
+
+.custom-thumbnail{
+    width: 100% !important;
+    height:200px !important;
+}
+.thumbnail{
+    text-align: center !important;  
+    background: rgb(110, 213, 82);  
+    color: white;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+.navbar .navbar-text ,.navbar .navbar-link{
+    color:#167798;
+    text-decoration: none;
+
+}
+.navbar-toggle  {
+    border: solid #167798 1px  !important;
+    margin:15px;
+    background-color:#EEE;
+
+}
+.navbar-default .navbar-toggle:hover {
+    border: solid #167798 1px  !important;
+    margin:15px;
+    background-color:dodgerblue;
+
+
+}
+.navbar-default .navbar-toggle:hover  .icon-bar{
+  background-color: #eee;
+}
+.navbar-default .navbar-toggle  .icon-bar{
+  background-color: #167798;
+}
+
+
+
+
+
+.facebook-icon:before,.facebook-icon:after{
+
+    font-size: 30px;
+    content: '\ea8c';
+    font-family: 'icomoon';
+    color:white;
+
+}
+.twitter-icon:before,.twitter-icon:after{
+
+    font-size: 25px;
+    content: '\ea91';
+    font-family: 'icomoon';
+    color:white;
+
+}
+
+
+
+
+
+
+
+
+.social {
+  text-align: center;
+}
+.social .socialicon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    line-height: 40px;
+    background: #404040;
+    /* --- optional, it looks nice also with simple squares --- */
+    border-radius: 100%;
+    transition: all ease 0.7s; }
+    /* --- hover effect : background color change --- */
+    .social .socialicon:hover {
+      background: #3B5998;
+
+    }
+
+    p.twitter:hover  {
+      background: #1dcaff !important;
+
+    }
+
+    .social  .socialicon a {
+      display: block;
+      width: 100%;
+      height: 200%;
+      position: relative;
+      top: 0;
+      color: white;
+      text-decoration:none;
+      transition: all ease 0.7s; }
+       /* --- hover effect : shift up --- */
+      .social  .socialicon:hover a{
+        top: -40px; }
+
+      .social  .socialicon a:after{
+        position: absolute;
+        width: inherit;
+        height: 50%;
+        left: 0;
+        bottom: 0;
+        color: white;
+        line-height: 40px;
+        text-align: center;
+      }
+
+.socialtext{
+     display: inline-block;
+    width: 80px;
+    height: 40px;
+    overflow: hidden;
+    line-height: 40px;
+
+    /* --- optional, it looks nice also with simple squares --- */
+
+
+}
+ .socialicon{
+ margin-top: 5px;
+ margin-left: 3px;
+  /*width:100% !important;*/
+}
+.social .navbar-text{
+  margin:0px;
+}
+
+
+
+div.social> p{
+  padding-top: 17px;
+  padding-right:10px;
+}
+
+.footer  .copy {
+  text-align: left;
+
+}
+
+@media (max-width: 767px) {
+  .footer1 .copy {
+    text-align: center;
+    margin-top: 20px
+
+  }
+
+}
+
+.footer1 .socialbar .social {
+  float: right;
+}
+.footer1 span{
+  margin-right: 15px;
+}
+
+
+
+@media (max-width: 767px) {
+  .footer1 .socialbar .social {
+    float: none;
+  }
+}
+@media (max-width: 767px) {
+
+    footer{
+        height:auto;
+        margin-top: 100px;
+    }
+    .content{
+        padding-bottom: 80px !important;
+    }
+
+}
+
+
