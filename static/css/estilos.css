@@ -14,6 +14,7 @@ a{
 textarea{
     resize: none;
 }
+/*sss*/
 .formfield-error{
     position:relative;
     padding:5px;
@@ -295,8 +296,8 @@ h1{
     height:200px !important;
 }
 .thumbnail{
-    text-align: center !important;  
-    background: rgb(110, 213, 82);  
+    text-align: center !important;
+    background: rgb(110, 213, 82);
     color: white;
     padding: 0;
 }
@@ -475,5 +476,3 @@ div.social> p{
     }
 
 }
-
-
