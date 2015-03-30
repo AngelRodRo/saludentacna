@@ -1,16 +1,6 @@
-{% extends 'base.html'%}
-<!--********************************************************************* -->
+{% extends 'base.html' %}
 
 {% block content %}
-    <div class="container-fluid content">
-    <div class="row">
-        <div class="container">
-            <form id="form1" class="" action="search/" method="get" role="form" >
-                <input id="name_clinic" name="q" class="form-control" type="search">
-                <button id="search_clinic" class="btn btn-primary" type="submit">Buscar</button>
-            </form>
-        </div>
-    </div>
     <div class="row">
         {% for clinica in object_list %}
 
@@ -26,7 +16,5 @@
 
         {% endfor %}
      </div>
-
-    </div>
-
 {% endblock %}
+

@@ -12,8 +12,8 @@ DATABASES = {
         'NAME': 'saludentacna',
         'USER': 'root',
         'PASSWORD': 'root',
-        'HOST': '/Applications/MAMP/tmp/mysql/mysql.sock',
-        'PORT': '3306',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 

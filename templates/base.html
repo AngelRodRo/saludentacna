@@ -36,7 +36,7 @@
                 <ul class="nav navbar-nav">
 
                     <li>
-                        <a href="">Link</a>
+{#                        <a href="">Link</a>#}
                     </li>
                 </ul>
 
@@ -44,6 +44,9 @@
             </div>
          </div>
     </div>
+    {% block breadcrumbs %}
+    {% endblock %}
+
     {% block content %}
     {% endblock %}
 
@@ -91,6 +94,7 @@
     <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script-!-->
     <script src="{% static 'js/jquery-1.11.0.js' %}"></script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/main.js' %}"></script>
 
 </body>
 
